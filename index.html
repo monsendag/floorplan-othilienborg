@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Konva Line Polygon Demo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      #container {
+        margin: 10px;
+        width: 100%;
+        height: 1000px;
+        flex: 1;
+        clip-path: polygon(
+          /* gang ved bad */ 208px 0px,
+          300px 0px,
+          300px 16px,
+          316px 16px,
+          316px 9px,
+          693px 9px,
+          693px 18px,
+          842px 18px,
+          842px 131px,
+          693px 131px,
+          693px 202px,
+          492px 202px,
+          492px 211px,
+          699px 211px,
+          699px 750px,
+          316px 750px,
+          316px 431px,
+          300px 431px,
+          300px 608px,
+          0px 608px,
+          0px 278px,
+          300px 278px,
+          300px 358px,
+          316px 358px,
+          316px 99px,
+          300px 99px,
+          208px 100px
+        );
+
+        background: repeating-linear-gradient(
+          to right,
+          #f6ba52,
+          #f6ba52 19px,
+          #ffd180 19px,
+          #ffd180 38px
+        );
+        background-position: -14px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">hey</div>
+  </body>
+</html>
